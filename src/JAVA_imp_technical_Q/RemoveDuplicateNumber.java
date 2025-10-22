@@ -5,8 +5,6 @@ package JAVA_imp_technical_Q;
 public class RemoveDuplicateNumber {
     public static void main(String[] args) {
 
-
-
         // make sure array must be shorted.
         int[] a = {1,2,2,3,3,5,5,8,8};
         int[] temp = new int[a.length];
@@ -27,7 +25,5 @@ public class RemoveDuplicateNumber {
             System.out.println(temp[i]);
 
         }
-
     }
-
 }

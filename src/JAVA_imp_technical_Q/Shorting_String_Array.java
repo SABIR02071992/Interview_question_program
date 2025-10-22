@@ -7,7 +7,7 @@ public class Shorting_String_Array {
         for (int i = 0; i< b.length;i++){
             for (int j=0; j<b.length;j++){
 
-                if(b[i].compareTo(b[j])>0){
+                if(b[i].compareTo(b[j])<0){
                     temp1 = b[i];
                     b[i] = b[j];
                     b[j]=temp1;

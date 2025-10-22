@@ -12,10 +12,7 @@ public class RemoveDuplicateStringArray {
                 temp1[k] = b[i];
                 k++;
             }
-            /*if (!(b[i] ==b[i+1])){
-                temp1[k] = b[i];
-                k++;
-            }*/
+
         }
         temp1[k] = b[b.length - 1];
 

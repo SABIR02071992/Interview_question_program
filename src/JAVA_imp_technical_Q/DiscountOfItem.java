@@ -6,15 +6,10 @@ import java.util.List;
 public class DiscountOfItem {
     public static void main(String[] args) {
 
-        /*List<LineItem> cart = new ArrayList<>();
-        cart.add(new LineItem(new Item("Pizza",120),2));
-        cart.add(new LineItem(new Item("Laddu",120),2));
-        cart.add(new LineItem(new Item("Noodles",155),5));
-        cart.add(new LineItem(new Item("Paneer",450),2));*/
         List<LineItem> cart = new ArrayList<>();
         cart.add(new LineItem(new Item("Pizza",120),4));
-        cart.add(new LineItem(new Item("Pizza",155),2));
-        cart.add(new LineItem(new Item("Pizza",120),4));
+        cart.add(new LineItem(new Item("Noodles",155),2));
+        cart.add(new LineItem(new Item("Burger",120),4));
 
         double grantTotal = 0.0;
 
