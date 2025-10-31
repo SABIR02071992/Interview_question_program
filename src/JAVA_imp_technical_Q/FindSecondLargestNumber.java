@@ -19,6 +19,6 @@ public class FindSecondLargestNumber {
             }
 
         }
-        System.out.print(a[1]);
+        System.out.print(a[1]); 
     }
 }
